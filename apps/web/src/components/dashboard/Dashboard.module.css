@@ -1,0 +1,77 @@
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+hr {
+    border: 10px solid  rgb(230, 228, 228);
+    margin: 1rem 0;
+}
+
+.dashbordItems {
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.up, .down, .maintenance {
+    font-weight: 900;
+}
+
+.up {
+    color: #008000;
+}
+.down {
+    color: #ff0000;
+}
+.maintenance {
+    color: #0000ff;
+}
+
+.statusContainer {
+    overflow-y: auto;
+}
+
+.statusContainer ul {
+    padding: 0 5px;
+}
+
+.statusTitle {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.statusItems {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    word-break: break-all;
+}
+
+.statusItems div {
+    width: 33.333%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .dashbordItems {
+        padding: 20px;
+        font-size: 16px;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (max-width: 586px) {
+    .dashbordItems {
+        padding: 10px;
+        font-size: 16px;
+    }
+   
+  }
