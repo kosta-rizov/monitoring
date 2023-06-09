@@ -1,0 +1,28 @@
+.container {
+  display: none;
+  justify-content: space-around;
+  width: calc(100% - 40px);
+  height: 50px;
+  background-color: #fff;
+  margin: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  
+}
+
+.linkitems {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+
+.linkitems:hover,.linkitems:focus {
+  color: #008000;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .container {
+    display: flex;
+  }
+}

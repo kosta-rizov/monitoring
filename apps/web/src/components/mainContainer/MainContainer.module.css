@@ -1,0 +1,16 @@
+.container {
+    width: 70%;
+    height: calc(100vh - 140px);
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        height: calc(100vh - 220px);
+        margin-left: 0;
+    }
+}
